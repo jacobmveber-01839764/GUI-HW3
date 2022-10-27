@@ -1,0 +1,28 @@
+/*
+Author: Jacob Veber
+Email: jacob_veber@student.uml.edu
+*/
+
+body {
+  background: #3F434E;
+}
+
+.btn-purple {
+  background: #907CC4;
+  color: #F8F9FA;
+}
+
+.btn-purple:hover {
+  background: #76679B;
+  color: #F8F9FA;
+}
+
+#mult-table {
+  table-layout: fixed;    /* Lets width of cells be set */
+}
+
+#table-container {
+  overflow: auto;         /* Vertical Scrolling */
+  overflow-x: scroll;     /* Horizontal Scrolling */
+  height: 70%;
+}
